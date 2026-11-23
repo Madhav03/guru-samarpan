@@ -179,12 +179,35 @@ body{font-family:'Crimson Pro',Georgia,serif;background:#FFF3CC;color:#1A0A00;mi
 .stag.ch{font-style:italic;border-color:#C4A882;color:#6B4226;background:#FFF3E0}
 .sdesc{font-size:.8rem;color:#5C3D2E;line-height:1.6}.sread{display:inline-block;margin-top:10px;font-size:.7rem;color:#E07B18;font-weight:600;text-decoration:none;letter-spacing:.03em;border-bottom:1px solid transparent;transition:border-color .2s,opacity .2s;opacity:.82}.sread:hover{border-bottom-color:#E07B18;opacity:1}
 .plinks{margin-top:10px;display:flex;gap:10px;flex-wrap:wrap}
+.guru-trio{display:flex;justify-content:center;gap:2rem;margin-bottom:1.2rem;flex-wrap:wrap}
+.guru-portrait{display:flex;flex-direction:column;align-items:center;gap:.4rem}
+.guru-frame{width:92px;height:92px;border-radius:50%;border:3px solid #FFD000;box-shadow:0 0 0 2px #E07B18,0 4px 18px rgba(0,0,0,.35);overflow:hidden;background:linear-gradient(135deg,#B85C00,#D97B00);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.guru-frame img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.guru-fname{font-family:'Cinzel',serif;font-size:.68rem;font-weight:600;color:#fff;text-align:center;text-shadow:0 1px 3px rgba(0,0,0,.55);max-width:90px;line-height:1.3}
+.guru-era{font-size:.6rem;color:rgba(255,255,255,.75);text-align:center}
 </style>
 </head>
 <body>
 
 <!-- HERO -->
 <div class="hero">
+  <div class="guru-trio">
+    <div class="guru-portrait">
+      <div class="guru-frame"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SriPada1.jpg/200px-SriPada1.jpg" alt="Sripada Srivallabha" onerror="this.parentNode.innerHTML='🙏'"></div>
+      <div class="guru-fname">Sripada Srivallabha</div>
+      <div class="guru-era">c. 1320 – 1350 CE</div>
+    </div>
+    <div class="guru-portrait">
+      <div class="guru-frame"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/NrusimhaSaraswati.jpg/200px-NrusimhaSaraswati.jpg" alt="Narasimha Saraswati" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Nrusimha_saraswati.jpg/200px-Nrusimha_saraswati.jpg';this.onerror=function(){this.parentNode.innerHTML='🙏'}"></div>
+      <div class="guru-fname">Narasimha Saraswati</div>
+      <div class="guru-era">1378 – 1459 CE</div>
+    </div>
+    <div class="guru-portrait">
+      <div class="guru-frame"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shirdi_Sai_Baba_3.jpg/200px-Shirdi_Sai_Baba_3.jpg" alt="Shirdi Sai Baba" onerror="this.parentNode.innerHTML='✨'"></div>
+      <div class="guru-fname">Shirdi Sai Baba</div>
+      <div class="guru-era">c. 1838 – 1918 CE</div>
+    </div>
+  </div>
   <div class="hero-om">🕉️</div>
   <div class="hero-title">Guru Samarpan</div>
   <div class="hero-sub">Sacred Library of the Datta Parampara · A devotional offering at the lotus feet of the Guru</div>
