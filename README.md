@@ -1,26 +1,27 @@
 # 🪔 Guru Samarpan — Sacred Library Portal
 
-A devotional digital library for three luminous texts of the **Datta Parampara** tradition.
+A devotional digital library for four luminous texts of the **Datta Parampara** tradition.
 
 **Live site → [madhav03.github.io/guru-samarpan](https://madhav03.github.io/guru-samarpan/)**
 
 ---
 
-## 📚 The Three Books
+## 📚 The Four Books
 
 | Book | Title | Leelas |
 |------|-------|--------|
-| Book 1 | Shri Gurucharitra Charitamrutam | 33 |
-| Book 2 | Gurucharitra — Narasimha Saraswati | 26 |
+| Book 1 | Sripada Srivallabha Charitamrutam | 33 |
+| Book 2 | Shri Gurucharitra (Narasimha Saraswati) | 53 |
 | Book 3 | Sai Satcharitra | 31 |
+| Book 4 | Shri Swami Samartha Akkalkot | 66 |
 
-**90 leelas** (sacred stories) in total — searchable, filterable, and presented with reverence.
+**183 leelas** (sacred stories) in total — searchable, filterable, and presented with reverence.
 
 ---
 
 ## ✨ Features
 
-- **Search** across all 90 leelas instantly
+- **Search** across all 183 leelas instantly
 - **Filter** by theme, miracle type, or book
 - **Lineage** — the Datta Parampara guru succession
 - **Timeline** — from Dattatreya to the present era
