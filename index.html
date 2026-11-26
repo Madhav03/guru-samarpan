@@ -177,12 +177,8 @@ body{font-family:'Crimson Pro',Georgia,serif;background:#FFF3CC;color:#1A0A00;mi
 .ccard.expanded .cbod-full{display:block}
 .read-chapter-link{display:inline-block;margin-top:.5rem;font-size:.78rem;color:#6B1A1A;text-decoration:none;border-bottom:1px dotted #6B1A1A;font-family:'Cinzel',serif;letter-spacing:.03em}
 .read-chapter-link:hover{color:#E07B18;border-bottom-color:#E07B18}
-/* Teaching card expand */
-.tcard .tcont{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;transition:all .2s}
-.tcard.expanded .tcont{display:block;overflow:visible}
-.ttog{display:block;width:100%;margin-top:.6rem;padding:.28rem .6rem;background:none;border:1px solid #C4A882;border-radius:4px;color:#6B1A1A;font-family:'Cinzel',serif;font-size:.68rem;letter-spacing:.04em;cursor:pointer;text-align:left;transition:background .15s}
-.ttog:hover{background:#FFF3CC}
-.tcard.expanded .ttog{background:#FFF3CC}
+/* Teaching card — full content visible */
+.tcard .tcont{transition:all .2s}
 /* HISTORICAL TIMELINE */
 .htline{border-left:3px solid #E07B18;padding-left:1.2rem;margin:1rem 0}
 .htitem{margin-bottom:.85rem;position:relative}
@@ -2844,20 +2840,7 @@ function addWikiLinks(gridId) {
 }
 
 // ===== CHAPTER EXPAND/COLLAPSE =====
-function initTeachingToggles() {
-  document.querySelectorAll('.tcard').forEach(function(card) {
-    var cont = card.querySelector('.tcont');
-    if (!cont) return;
-    var btn = document.createElement('button');
-    btn.className = 'ttog';
-    btn.textContent = '▶ Read full text';
-    btn.onclick = function() {
-      var expanded = card.classList.toggle('expanded');
-      btn.textContent = expanded ? '▼ Collapse' : '▶ Read full text';
-    };
-    card.appendChild(btn);
-  });
-}
+function initTeachingToggles() { /* removed — full content shown by default */ }
 function initChapterToggles() {
   document.querySelectorAll('.cgrid .ccard').forEach(function(card) {
     var a = document.createElement('a');
