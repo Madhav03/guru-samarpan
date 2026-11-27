@@ -8,20 +8,20 @@ A devotional digital library for four luminous texts of the **Datta Parampara** 
 
 ## 📚 The Four Books
 
-| Book | Title | Leelas |
-|------|-------|--------|
-| Book 1 | Sripada Srivallabha Charitamrutam | 33 |
-| Book 2 | Shri Gurucharitra (Narasimha Saraswati) | 53 |
-| Book 3 | Sai Satcharitra | 31 |
-| Book 4 | Shri Swami Samartha Akkalkot | 66 |
+| Book | Title |
+|------|-------|
+| Book 1 | Sripada Srivallabha Charitamrutam |
+| Book 2 | Shri Gurucharitra (Narasimha Saraswati) |
+| Book 3 | Sai Satcharitra |
+| Book 4 | Shri Swami Samartha Akkalkot |
 
-**183 leelas** (sacred stories) in total — searchable, filterable, and presented with reverence.
+Hundreds of leelas (sacred stories) presented across the four books — searchable, filterable, and presented with reverence. Card counts reflect the number of story cards in the portal and are not independently verified as unique narrative units.
 
 ---
 
 ## ✨ Features
 
-- **Search** across all 183 leelas instantly
+- **Search** across all leelas instantly
 - **Filter** by theme, miracle type, or book
 - **Lineage** — the Datta Parampara guru succession
 - **Timeline** — from Dattatreya to the present era
